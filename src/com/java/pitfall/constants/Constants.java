@@ -1,0 +1,53 @@
+package com.java.pitfall.constants;
+
+//Dimensões constantes do programa
+
+public interface Constants {
+	//DESENHO DA TELA PRINCIPAL!{
+	
+	//Dimensões da tela
+	int WIDTH_SCREEN = 1000;
+	int HEIGTH_SCREEN = 700;
+
+	//FUNDO VERDE
+	
+	int BLOCO_FUNDO_POSI = 18;
+	int BLOCO_FUNDO_X = 0;
+	int BLOCO_FUNDO_HEIGTH = 480;
+	
+	//PARTE AMERELA
+	int BLOCO_FUNDO_AMARELO = 490;
+	int BLOCO_FUNDO_AMARELO_HEIGTH = 80;
+	
+	//PARTE LARANJA
+	int BLOCO_FUNDO_LARANJA = 570;
+	int BLOCO_FUNDO_LARANJA_HEIGTH = BLOCO_FUNDO_AMARELO_HEIGTH;
+	
+	//PARTE PRETA
+	
+	int BLOCO_FUNDO_PRETO = 650;
+	int BLOCO_FUNDO_PRET_HEIGTH = BLOCO_FUNDO_AMARELO_HEIGTH;
+	
+	//Tronco arvores
+	int TRONCO_X_A = 125;
+	int TRONCO_X_B = 485;
+	int TRONCO_X_C = 845;
+	int TRONCO_Y = 170;
+	int TRONCO_WIDTH = 30;
+	int TRONCO_HEIGTH = 320;
+	//Folhas das arvocres
+	int[] FOLHAS_X ={0,30,60,90,175,200,250,350,380,420,540,560,600,700,730,770,920,960};
+	int[] FOLHAS_Y = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10};
+	
+	int[] FOLHAS_WIDTH = {30,50,45,100,45,50,100,45,50,120,45,50,110,45,50,160,45,50};
+	int[] FOLHAS_HEIGTH = {150,155,160,165,160,155,150,155,160,165,160,155,150,155,160,165,160,155};
+	 
+	//Gravidade
+	double GRAVITY = .98;
+	
+	//Constante de colisão
+	
+	int CONSTANTE_COLISAO_BURACO = 90;
+	
+	
+}
